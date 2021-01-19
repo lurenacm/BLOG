@@ -1,6 +1,6 @@
 module.exports = {
   "title": "LinYY",
-  "description": "LinYY杂记",
+  "description": "林一一的博客",
   "base": "/blog/",
   "dest": "public",
   "head": [
@@ -8,7 +8,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/favicon1.ico"
       }
     ],
     [
@@ -113,20 +113,20 @@ module.exports = {
         "text": "Tag"
       }
     },
-    // "friendLink": [{
-    //     "title": "午后南杂",
-    //     "desc": "Enjoy when you can, and endure when you must.",
-    //     "email": "1156743527@qq.com",
-    //     "link": "https://www.recoluan.com"
-    //   },
-    //   {
-    //     "title": "vuepress-theme-reco",
-    //     "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-    //     "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    //     "link": "https://vuepress-theme-reco.recoluan.com"
-    //   }
-    // ],
-    "logo": "/logo.png",
+    "friendLink": [{
+        "title": "午后南杂",
+        "desc": "Enjoy when you can, and endure when you must.",
+        "email": "1156743527@qq.com",
+        "link": "https://www.recoluan.com"
+      },
+      {
+        "title": "vuepress-theme-reco",
+        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        "link": "https://vuepress-theme-reco.recoluan.com"
+      }
+    ],
+    "logo": "/logo1.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",

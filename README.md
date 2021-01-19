@@ -13,7 +13,7 @@ bgImage: /hero.jpg
 #   color: wheat
 # }
 bgImageStyle: {
-  height: '450px',
+  height: '550px',
   color: wheat
 }
 isShowTitleInHome: false
