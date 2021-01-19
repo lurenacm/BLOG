@@ -1,7 +1,7 @@
 module.exports = {
   "title": "LinYY",
   "description": "LinYY杂记",
-  "base": "./",
+  "base": "/blog/",
   "dest": "public",
   "head": [
     [
