@@ -2,20 +2,20 @@
 home: true
 heroText: 林一一同学的杂记
 tagline: 今年春天的太阳一定很暖.
-# bgImage: /hero.jpg
-heroImage: /hero.jpg
-heroImageStyle: {
-  width: '100%',
-  display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
-  color: wheat
-}
-# bgImageStyle: {
-#   height: '450px',
+bgImage: /hero.jpg
+# heroImage: /hero.jpg
+# heroImageStyle: {
+#   width: '100%',
+#   display: block,
+#   margin: '9rem auto 2rem',
+#   background: '#fff',
+#   borderRadius: '1rem',
 #   color: wheat
 # }
+bgImageStyle: {
+  height: '450px',
+  color: wheat
+}
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
