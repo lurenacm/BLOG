@@ -29,13 +29,17 @@ module.exports = {
       {
         "text": "分类索引",
         "icon": "reco-category",
-        "items": [{
-            "text": "Typescript",
+        "items": [
+          {
+            "text": "theme-reco",
             "link": "/docs/theme-reco/"
+          },{
+            "text": "Typescript",
+            "link": "/docs/Typescript/"
           },
           {
             "text": "Javascript",
-            "link": "/docs/javascript/"
+            "link": "/docs/Javascript/"
           },
           {
             "text": "算法和数据结构",
@@ -83,17 +87,21 @@ module.exports = {
         "plugin",
         "api"
       ],
-      "/docs/javascript/": [
+      "/docs/Javascript/": [
         "",
         "theme",
         "plugin",
-        "api"
+        "api",
+        "介绍Typescript",
+        "TS静态类型"
       ],
-      "/docs/typescript/": [
+      "/docs/Typescript/": [
         "",
         "theme",
         "plugin",
-        "api"
+        "api",
+        "介绍Typescript",
+        "TS静态类型"
       ],
       "/docs/others/": [
         "",
