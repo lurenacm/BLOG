@@ -1,6 +1,11 @@
 ---
 title: 介绍Typescript
 date: 2021-02-04
+categories:
+ - Typescript
+tags:
+ - TS 介绍
+sidebar: 'auto'
 ---
 
 ::: tip
@@ -10,7 +15,7 @@ date: 2021-02-04
 # 一.介绍Typescript
 ## Typescript 是什么？
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ff97bb860d0d43b693342e00188b339f~tplv-k3u1fbpfcp-watermark.image)（ **图片来源网络，侵权删除**）
- ![图灵](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e0d9880991fb47039cab41a3f8646a89~tplv-k3u1fbpfcp-watermark.image) 
+ ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e0d9880991fb47039cab41a3f8646a89~tplv-k3u1fbpfcp-watermark.image) 
 
 * Typescript 是 JavaScript 的**超集**，两者是所属关系。
 * Typescript 是 JavaScript 的增强，包含 JavaScript 的最新特性，非常适合创建大型项目

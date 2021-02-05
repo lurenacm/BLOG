@@ -1,6 +1,11 @@
 ---
-title: 静态类型
+title: TS 静态类型
 date: 2021-02-04
+categories:
+ - Typescript
+tags:
+ - TS 类型
+sidebar: 'auto'
 ---
 
 # 二. 静态类型
@@ -10,7 +15,9 @@ __就像前面看到的那样静态类型可以是基础类型 number string nul
 * 定义为相应类型后可以直接使用对应类型的方法或属性如 number,vscode 直接提示
 ![类型属性提示](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5bbd5f71b11947e9bfe33a7f273ae9cb~tplv-k3u1fbpfcp-watermark.image)
 
-. **基础类型 number string null undefined symbol boolean any void never。。。**
+### **基础类型**
+number, string, null, undefined, symbol, boolean, any, void, never
+
  * **number 类型**
 ``` TS
 const num: number = 123
@@ -24,7 +31,7 @@ const Name: string = 'LinYY'
 const boolean: Boolean = true
 ```
 * **null 类型** 。
-::: tip
+::: tip tip
 null 类型不可以赋值给 undefined 类型和 联合类型（后面介绍）
 :::
 ``` TS
@@ -51,6 +58,7 @@ e = {b: 23, c: undefined}
 ::: warning
 注意 any 类型，any 类型定义后可以修改为其他的类型
 :::
+
 ``` TS
 // any 类型可以修改成其他任何类型，TS 不对 any 类型作类型检测
 let not: any
@@ -62,7 +70,8 @@ not = true
 let listArr: any[] = ['1', 2, true]
 ```
 * **void 类型** 和 any 类型相反，表示没有任何类型。
-::: warring
+
+::: warning
 通常作用在函数中代表没有返回值，虽然也可以作为其他变量的类型，但只能赋值成  undefined。换一个方向想函数总是有返回值的，如果不是一个确定的值那么就是 undefined 值，所以 void 其实是属于 undefined 的，所以一个变量类型是 void 时，值只能 undefined 值。但是 不能将类型“void”分配给类型“undefined”详情看例子
 :::
 ``` TS
@@ -98,6 +107,7 @@ function abs(): never {
     console.log('never')    // 上面的代码永远是true 这段代码不打印。
 }
 ```
+### **对象类型**
 * **对象类型 object type**。object {}，array [], class {}， function
 ``` TS
 let person: {
@@ -122,7 +132,7 @@ const listA: Array<number> = [1, 2, 3]
 class Person {}
 const LinYY: Person  = new Person()
 ```
-* **function 函数类型**, 下面的函数类型要求返回值是 number 数字类型，写成其他类型如 string 会报错。
+* **函数类型 function**, 下面的函数类型要求返回值是 number 数字类型，写成其他类型如 string 会报错。
 ``` TS
 const getNumber: () => number = () => {
     // return 'LinYY'   报错
@@ -153,4 +163,6 @@ const point: Point = {
 let temp: number | string = 23
 temp = '23'
 ```
-* 在 typescript 里面 name 是一个预留关键字，不能直接当变量来用
+::: danger
+在 typescript 里面 name 是一个预留关键字，不能直接当变量来用
+:::

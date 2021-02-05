@@ -55,8 +55,8 @@ module.exports = {
         "text": "标签",
         "icon": "reco-tag",
         "items": [{
-          "text": "vuepress-reco",
-          "link": "/docs/theme-reco/"
+          // "text": "vuepress-reco",
+          "link": "/docs/"
         }]
       },
       {
@@ -110,15 +110,16 @@ module.exports = {
         "api"
       ]
     },
+    "subSidebar": "auto",
     "type": "blog",
     "blogConfig": {
       "Category": {
         "location": 2,
-        "text": "Category"
+        "text": "目录索引"
       },
       "Tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签索引"
       }
     },
     "friendLink": [{
