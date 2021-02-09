@@ -31,7 +31,7 @@ const Name: string = 'LinYY'
 const boolean: Boolean = true
 ```
 * **null 类型** 。
-::: tip tip
+::: tip
 null 类型不可以赋值给 undefined 类型和 联合类型（后面介绍）
 :::
 ``` TS
